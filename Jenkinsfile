@@ -9,9 +9,9 @@ pipeline {
 
   stages {
 
-    stage('Checkout Source') {
+    stage('Checkout Sourcecode') {
       steps {
-        git 'https://github.com/shazforiot/nodeapp_test.git'
+        git 'https://github.com/kaniprabhu2/NodeJS-Jenkins-k8s-Integration.git'
       }
     }
 
